@@ -26,7 +26,7 @@
         * Validar dados obtidos do usuário <br />
         * Validar email, name, password, phone <br />
         * Criar hash do password <br />
-        * Armazene o usuário no banco de dados <br /> <br />
+        * Armazene o usuário no banco de dados <br />
 -   [ ] Criar me
 
 [circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
