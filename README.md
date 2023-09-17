@@ -19,6 +19,10 @@
 -   [x] Criar schema prisma
 -   [ ] Criar sign_in
 -   [ ] Criar sign_up
+        _ Validar dados obtidos do usuário
+        _ Validar email, name, password, phone
+        _ Criar hash do password
+        _ Armazene o usuário no banco de dados
 -   [ ] Criar me
 
 [circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
@@ -81,7 +85,7 @@ $ yarn run test:cov
 
 ```bash
 # Comando criar Docker c/ Postgres
-DOCKER API REALTOR docker run --name realtor -e POSTGRESQL_USERNAME=user -e POSTGRESQL_PASSWORD=senha -e POSTGRESQL_DATABASE=realtor -p 5432:5432 bitnami/postgresql
+docker run --name realtor -e POSTGRESQL_USERNAME=user -e POSTGRESQL_PASSWORD=senha -e POSTGRESQL_DATABASE=realtor -p 5432:5432 bitnami/postgresql
 
 # verificar docker
 docker ps
