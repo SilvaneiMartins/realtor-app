@@ -13,6 +13,14 @@
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
 </p>
 
+## Tarefas do projeto
+
+-   [x] Criar projeto
+-   [x] Criar schema prisma
+-   [ ] Criar sign_in
+-   [ ] Criar sign_up
+-   [ ] Criar me
+
 [circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
 [circleci-url]: https://circleci.com/gh/nestjs/nest
 
@@ -69,10 +77,34 @@ $ yarn run test:e2e
 $ yarn run test:cov
 ```
 
+## Criando Docker Postgres
+
+```bash
+# Comando criar Docker c/ Postgres
+DOCKER API REALTOR docker run --name realtor -e POSTGRESQL_USERNAME=user -e POSTGRESQL_PASSWORD=senha -e POSTGRESQL_DATABASE=realtor -p 5432:5432 bitnami/postgresql
+
+# verificar docker
+docker ps
+
+docker ps -a
+
+# executar docker
+docker start realtor
+
+# parar docker
+docker stop realtor
+
+# remover docker
+docker rm realtor
+```
+
+## Configuração Banco de dados
+
+heroku.com
+
 ## Suporte ao framework
 
-Nest é um projeto de código aberto licenciado pelo MIT. Pode crescer graças aos patrocinadores e ao apoio de patrocinadores incríveis. Se você quiser se juntar a eles, por favor [read more here](https://docs.nestjs.com/support).
-
+Nest é um projeto de código aberto licenciado pelo MIT. Pode crescer graças aos patrocinadores e ao apoio de patrocinadores incríveis. Se você quiser se juntar a eles, por favor [leia mais aqui](https://docs.nestjs.com/support).
 
 ## Licença
 
