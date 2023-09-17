@@ -5,9 +5,13 @@
 	🚧  Os projeto estão sendo desenvolvido...  🚧 <br />
 </h4>
 
-<!-- <p align="center">
-  <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
-</p> -->
+## Imagens do projeto
+
+<p align="center">
+  <a href="https://imgur.com/Eo9CLUX"><img src="https://i.imgur.com/Eo9CLUX.png" title="source: imgur.com" /></a>
+  <br />
+  <a href="https://imgur.com/IfopLYX"><img src="https://i.imgur.com/IfopLYX.png" title="source: imgur.com" /></a>
+</p>
 
 <p align="center">
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
@@ -19,10 +23,10 @@
 -   [x] Criar schema prisma
 -   [ ] Criar sign_in
 -   [ ] Criar sign_up
-        _ Validar dados obtidos do usuário
-        _ Validar email, name, password, phone
-        _ Criar hash do password
-        _ Armazene o usuário no banco de dados
+        * Validar dados obtidos do usuário
+        * Validar email, name, password, phone
+        * Criar hash do password
+        * Armazene o usuário no banco de dados
 -   [ ] Criar me
 
 [circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
