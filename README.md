@@ -23,10 +23,10 @@
 -   [x] Criar schema prisma
 -   [ ] Criar sign_in
 -   [ ] Criar sign_up <br />
-        * Validar dados obtidos do usuáriop <br />
-        * Validar email, name, password, phonep <br />
-        * Criar hash do passwordp <br />
-        * Armazene o usuário no banco de dadosp <br />p <br />
+        * Validar dados obtidos do usuário <br />
+        * Validar email, name, password, phone <br />
+        * Criar hash do password <br />
+        * Armazene o usuário no banco de dados <br /> <br />
 -   [ ] Criar me
 
 [circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
