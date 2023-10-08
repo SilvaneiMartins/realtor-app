@@ -35,3 +35,11 @@ export class SignupDto {
     })
     password: string
 }
+
+export class SigninDto {
+    @IsEmail()
+    email: string;
+
+    @IsString()
+    password: string;
+}
