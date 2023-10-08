@@ -1,5 +1,5 @@
-import * as jwt from 'jsonwebtoken';
 import * as bcrypt from 'bcrypt';
+import * as jwt from 'jsonwebtoken';
 import { UserType } from '@prisma/client'
 import { Injectable, ConflictException, HttpException } from '@nestjs/common';
 
@@ -83,5 +83,10 @@ export class AuthService {
         }, process.env.JSON_TOKEN_KEY, {
             expiresIn: 3600000,
         });
+    }
+
+    generateProductKey(email: string, userType: UserType) {
+        const string = `${email}-${userType}-${process.env.PRODUCT_KEY_SECRET}`;
+        return bcrypt.hash(string, 10);
     }
 }
